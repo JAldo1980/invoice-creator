@@ -114,6 +114,7 @@ header p {
 .task-btn-box {
   margin-top: 2em;
   display: flex;
+  gap: 0.5em;
   justify-content: space-between;
 }
 
@@ -168,4 +169,25 @@ header p {
 .send-invoice-btn:hover {
   background-color: lightskyblue;
   transition: 0.4s;
+}
+
+/* html output elements */
+
+.task-output,
+.cost-output {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* total output */
+#note-output {
+  margin-top: 1em;
+}
+
+.adjust-class {
+  margin-top: 1em;
+  text-align: end;
+  padding-right: 0.8em;
 }
